@@ -59,7 +59,7 @@ package App::cccl::cl {
   {
     if($self->exe)
     {
-      my(undef, $stderr) = capture { system $self->Exe }; 
+      my(undef, $stderr) = capture { system $self->exe };
       return 
         "CL=@{[ $self->exe ]}\n" .
         "$stderr";
