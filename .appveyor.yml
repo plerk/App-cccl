@@ -1,5 +1,7 @@
 ---
 
+image: Visual Studio 2017
+
 install:
   - choco install strawberryperl
   - SET PATH=C:\Perl5\bin;C:\strawberry\c\bin;C:\strawberry\perl\site\bin;C:\strawberry\perl\bin;%PATH%
