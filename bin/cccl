@@ -1,0 +1,13 @@
+#!/usr/bin/env perl
+
+use strict;
+use warnings;
+use 5.026;
+use lib::findbin '../lib'; # dev-only
+use App::cccl;
+
+# PODNAME: cccl
+# ABSTRACT: Wrapper for cl to make it work like cc
+# VERSION
+
+exit App::cccl->main(@ARGV);
